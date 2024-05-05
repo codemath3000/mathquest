@@ -1,0 +1,93 @@
+body {
+    background-image: url("Math Background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.signup-box, .login-box {
+    width: 360px;
+    margin: auto;
+    background-color: #f4f6f6;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+form label {
+    font-size: 16px;
+    color: #34495e;
+}
+
+form input[type="text"],
+form input[type="username"],
+form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+form input[type="text"]:focus,
+form input[type="username"]:focus,
+form input[type="password"]:focus {
+    border-color: #3498db;
+}
+
+input[type="button"] {
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #1976D2;
+}
+
+p, .signup-para, .login-para {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.signup-para a, .login-para a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.signup-para a:hover, .login-para a:hover {
+    color: #2980b9;
+}
